@@ -81,7 +81,7 @@ public class AnimalNameCollection {
 
   private void initNames() {
     try {
-	  //names scraped from "https://a-z-animals.com/animals/"
+      // names scraped from "https://a-z-animals.com/animals/"
       File file = new File(FILE_NAME);
       Scanner fileScanner = new Scanner(file);
 
